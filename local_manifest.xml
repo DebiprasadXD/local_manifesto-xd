@@ -3,7 +3,7 @@
 
  <!-- Trees -->
  <project path="device/xiomi/lavender" name="DebiprasadXD/device_xiaomi_lavender-2.git" remote="github" revision="fluid-11" />
- <project path="device/xiomi/lavender" name="DebiprasadXD/device_xiaomi_sdm660-common.git" remote="github" revision="fluid-11" />
+ <project path="device/xiomi/sdm660-common" name="DebiprasadXD/device_xiaomi_sdm660-common.git" remote="github" revision="fluid-11" />
  <project path="vendor/xiomi/lavender" name="DebiprasadXD/vendor_xiaomi_lavender-1.git" remote="github" revision="fluid-11" />
  <project path="kernel/xiomi/lavender" name="DebiprasadXD/kernel_xiaomi_sdm660.git" remote="github" revision="fluid-11" />
  
