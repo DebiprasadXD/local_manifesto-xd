@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees -->
- <project path="device/xiomi/lavender" name="DebiprasadXD/device_xiaomi_lavender-2.git" remote="github" revision="fluid-11" />
- <project path="device/xiomi/sdm660-common" name="DebiprasadXD/device_xiaomi_sdm660-common.git" remote="github" revision="fluid-11" />
- <project path="vendor/xiomi/lavender" name="DebiprasadXD/vendor_xiaomi_lavender-1.git" remote="github" revision="fluid-11" />
- <project path="kernel/xiomi/lavender" name="DebiprasadXD/kernel_xiaomi_sdm660.git" remote="github" revision="fluid-11" />
- 
+      <remote name="DebiprasadXD"
+          fetch="https://github.com/DebiprasadXD" />
+
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="DebiprasadXD" revision="eleven" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="DebiprasadXD" revision="11" />
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="DebiprasadXD" revision="eas-main" />
+  
+  
 </manifest>
